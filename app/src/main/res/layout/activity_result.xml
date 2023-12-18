@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:gravity="start"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_angka"
+        android:textSize="20sp"
+        android:padding="20dp"
+        />
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rd_50"
+            android:text="@string/_50"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rd_100"
+            android:text="@string/_100"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rd_150"
+            android:text="@string/_150"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            />
+        <RadioButton
+            android:id="@+id/rd_200"
+            android:text="@string/_200"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/pilih"
+        />
+
+</LinearLayout>

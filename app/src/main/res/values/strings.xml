@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="pindah_activity">Pindah Activity</string>
+    <string name="halo_dek">Halo Dek</string>
+    <string name="good_job">Good Job</string>
+    <string name="data_di_sini">Data di Sini</string>
+    <string name="data_received">data received</string>
+    <string name="parcel">Parcel</string>
+    <string name="dial_number">Dial Number</string>
+    <string name="pilih">PILIH</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_150">150</string>
+    <string name="_200">200</string>
+    <string name="pilih_angka">Pilih Angka</string>
+    <string name="result_from_activity">Result From Activity</string>
+    <string name="move_with_result">Move With Result</string>
+</resources>
